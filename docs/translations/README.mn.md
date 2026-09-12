@@ -108,15 +108,15 @@ git push -u origin your-branch-name
 - ### Нэвтрэх эрхийн алдаа
      <pre>remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
   remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
-  fatal: Authentication failed for 'https://github.com/<your-username>/first-contributions.git/'</pre>
+  fatal: Authentication failed for 'https://github.com/&lt;your-username&gt;/first-contributions.git/'</pre>
   Хэрэв дээрх янзаар алдаа зааж байвал шинэ SSH түлхүүр үүсгэн хаягтайгаа холбох хэрэгтэй гэсэн үг бөгөөд хэрхэн холбохыг [энд дарж харна уу](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
 
   Мөн, аль рэпотой холбогдсон байгаагаа 'git remote -v' үйлдлээр шалгачихад гэмгүй.
-  
+
   Хэрэв дээрх үйлдлийн хариу доорх маягаар байвал:
   <pre>origin	https://github.com/таны-хэрэглэгчийн-нэр/таны-рэпо-нэр.git (fetch)
   origin	https://github.com/таны-хэрэглэгчийн-нэр/таны-рэпо-нэр.git (push)</pre>
-  
+
   дараах үйлдлээр өөрчлөх хэрэгтэй:
   ```bash
   git remote set-url origin git@github.com:таны-хэрэглэгчийн-нэр/таны-рэпо-нэр.git
